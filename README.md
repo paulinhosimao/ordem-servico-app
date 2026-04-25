@@ -62,6 +62,15 @@ Porém, devido a **restrições de ambiente (sem permissões administrativas par
 
 ---
 
+## 📂 Estrutura do Projeto
+ordem-servico-app/
+├── OrdemServico.API
+├── OrdemServico.Domain
+├── OrdemServico.Infrastructure
+├── OrdemServico.Worker
+└── ordem-servico-ui
+
+
 ## ▶️ Como Executar o Projeto
 
 ### 🔧 Backend (API)
@@ -79,7 +88,6 @@ http://localhost:5008/swagger
 ---
 
 ### ⚙️ Worker
-
 ```bash
 dotnet run --project OrdemServico.Worker
 ```
@@ -97,7 +105,6 @@ npm run dev
 ---
 
 ## 🔐 Autenticação
-
 Endpoint de login:
 
 ```
@@ -122,13 +129,17 @@ Bearer {token}
 ---
 
 ## 🧠 Considerações Técnicas
-
 * O projeto segue boas práticas de organização e separação de responsabilidades
 * Estrutura preparada para evolução com bancos reais e mensageria externa
 * Código organizado visando legibilidade e manutenção
 
 ---
 
-## 📎 Repositório
+## 📸 Tela inicial
+![Tela inicial](./docs/tela.png)
 
+## 📎 Repositório
 Este repositório contém todo o código necessário para execução do projeto.
+
+## 👨‍💻 Autor
+Desenvolvido por Paulo Simão
